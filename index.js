@@ -2,6 +2,8 @@
           //import express 
 import express  from "express";
 import mongoose from "mongoose";
+// var cors = require('cors')
+import cors from "cors"
 import data from "./data.js";
 //import dotenv
 import * as dotenv from 'dotenv'
@@ -38,6 +40,7 @@ dotenv.config()
        // the express app
 
 const app = express();
+app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.get('/api/keys/paypal', (req, res)=> {
