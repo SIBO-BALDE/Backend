@@ -4,9 +4,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines":{
+    "node": ">=18.13.0"
+  },
   "scripts": {
-    "start": "nodemon Server.js --ignore client",
+    "start": "nodemon index.js --ignore client",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [
     "e-commerce",
