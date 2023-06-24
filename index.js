@@ -11,7 +11,7 @@ import seedRouter from "./Routes/seedRouter.js";
 import productRouter from "./Routes/productRoutes.js";
 import userRouter from "./Routes/userRoutes.js";
 import orderRouter from "./Routes/orderRoutes .js";
-import uploadRouter from "./routes/uploadRoutes.js";
+import uploadRouter from "./Routes/uploadRoutes.js";
 import path from "path";
 
 //on peut importer comme sa :import dotenv from "dotenv";
