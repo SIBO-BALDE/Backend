@@ -2,8 +2,8 @@
           //import express 
 import express  from "express";
 import mongoose from "mongoose";
- var cors = require('cors')
-// import cors from "cors"
+ //var cors = require('cors')
+import cors from "cors"
 import data from "./data.js";
 //import dotenv
 import * as dotenv from 'dotenv'
